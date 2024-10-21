@@ -1,0 +1,2 @@
+1 : Simple note app.
+2 : Note with real type sync to server and account.

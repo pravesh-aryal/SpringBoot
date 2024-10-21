@@ -1,0 +1,20 @@
+Inversion of control : Objects are created by spring boot throught dependecny injection. DI is application of IOC.
+Spring takes care of object creation. 
+Apache tomcat = a server 
+
+An opiniated framework. 
+
+.war = web archive push it into tomcat to run it.
+Spring boot allows to create .jar file which itself has a tomcat (embedded tomcat)
+
+
+IOC container inside JVM. Spring creates object inside the IOC container. SpringApplication.run() creates the IOC container.
+IOC container itself is an object. 
+ApplicationContext object is returned by Sprint itself, .run() returns new ConfigurableApplicationContext.
+context.getBean() will give object of the class you pass. 
+Spring bydefault will not create objects of all the classes; dont want JVM to be burndened. 
+So mention @Component above a class to get Spring to create the object inside the container. 
+
+@Autowired = connects dependent object Like if Dev wants a laptop 
+@Autowired
+private Laptop laptop will do that. 
